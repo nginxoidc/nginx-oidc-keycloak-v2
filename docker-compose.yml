@@ -25,7 +25,7 @@ services:
 
   keycloak:
     container_name: idp-keycloak
-    image: jboss/keycloak:15.1.0
+    image: wizzn/keycloak:14
     environment:
       DB_VENDOR: POSTGRES
       DB_ADDR: postgres
